@@ -216,5 +216,14 @@
 // }
 // console.log("Average of marks: ",marks,"is : ",sum/marks.length);
 
+let item=[250, 645, 300, 900,500];
+console.log("price before discount : ",item);
+let offer = prompt("Enter the value of Discout offer");
+
+for(let i=0;i<item.length;i++){
+    item[i] = item[i]-item[i]*(0.01*offer);
+}
+
+console.log("price after discount : ",item);
 
 
