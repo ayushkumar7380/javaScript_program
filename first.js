@@ -206,13 +206,15 @@
 //     console.log(friends[index].toUpperCase());
 // }
 
-let sum=0;
-let marks=[22,45,34,72,88,64];
+// let sum=0;
+// let marks=[22,45,34,72,88,64];
 // for(let i=0;i<marks.length;i++){
 //     sum=sum+marks[i];
 // }
-for(let val of marks){
-    sum = sum + val;
-}
-console.log("Average of marks: ",marks,"is : ",sum/marks.length);
+// for(let val of marks){
+//     sum = sum + val;
+// }
+// console.log("Average of marks: ",marks,"is : ",sum/marks.length);
+
+
 
