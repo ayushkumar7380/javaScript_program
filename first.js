@@ -216,14 +216,39 @@
 // }
 // console.log("Average of marks: ",marks,"is : ",sum/marks.length);
 
-let item=[250, 645, 300, 900,500];
-console.log("price before discount : ",item);
-let offer = prompt("Enter the value of Discout offer");
+// const item=[250, 645, 300, 900,500];
+// let arritem=[];
+// console.log("price before discount : ",item);
+// let offer = prompt("Enter the value of Discout offer");
 
-for(let i=0;i<item.length;i++){
-    item[i] = item[i]-item[i]*(0.01*offer);
-}
+// for(let i=0;i<item.length;i++){
+//     arritem[i] = item[i]-item[i]*(0.01*offer);
+// }
 
-console.log("price after discount : ",item);
+// console.log("price after discount : ",item);
 
 
+
+// console.log("After pushing new element the new average become: ", arritem);
+// item.push(45);
+// arritem.push(75);
+// console.log(item);
+// console.log(arritem);
+
+
+const fruit=["Apple","Banana","Litchi","Avacado","Grapes"];
+console.log("Number of fruits in the list is : ",fruit.length);
+console.log(fruit);
+fruit.push("Papaya");
+let discript = `Number of fruit in the list is : ${fruit.length}`;
+console.log(discript);
+console.log(fruit);
+
+fruit.push("Mango","Guava","BlackBerry");
+discript=`Number of fruit in the list is : ${fruit.length}`;
+console.log(discript);
+console.log(fruit);
+
+console.log("fruit array before pop: ",fruit);
+let res = fruit.pop()
+console.log("Fruit array after pop: "+fruit+" Deleted fruit is : "+res);
